@@ -34,3 +34,28 @@ test("@Regression End To End Flow", async ({ page }) =>{
     //     await page.waitForTimeout(5000);
 
 });
+
+
+test("@Sanity Group Test Case ", async ({page})=>{
+    console.log("Sanity Group Test case 1");
+    console.log("Sanity Group Test case 2");
+    console.log("Sanity Group Test case 3");
+    console.log("Sanity Group Test case 4");
+    console.log("Sanity Group Test case 5");
+});
+
+test("@Smoke Group Test Case ", async ({page})=>{
+    console.log("Smoke Group Test case 1");
+    console.log("Smoke Group Test case 2");
+    console.log("Smoke Group Test case 3");
+    console.log("Smoke Group Test case 4");
+    console.log("Smoke Group Test case 5");
+});
+
+test("@End 2 End  Group Test Case ", async ({page})=>{
+    console.log("End 2 End  Group Test case 1");
+    console.log("End 2 End  Group Test case 2");
+    console.log("End 2 End  Group Test case 3");
+    console.log("End 2 End Group Test case 4");
+    console.log("End 2 End  Group Test case 5");
+});
