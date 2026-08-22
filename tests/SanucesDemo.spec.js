@@ -52,7 +52,7 @@ test("@Smoke Group Test Case ", async ({page})=>{
     console.log("Smoke Group Test case 5");
 });
 
-test("@End 2 End  Group Test Case ", async ({page})=>{
+test("@End2End  Group Test Case ", async ({page})=>{
     console.log("End 2 End  Group Test case 1");
     console.log("End 2 End  Group Test case 2");
     console.log("End 2 End  Group Test case 3");
